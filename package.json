@@ -1,0 +1,16 @@
+{
+  "name": "vuln-demo",
+  "version": "1.0.0",
+  "description": "Demo app with outdated deps for vulnerability scanning",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.16.0",
+    "lodash": "4.17.4",
+    "minimist": "1.2.0",
+    "axios": "0.18.0",
+    "jsonwebtoken": "8.3.0"
+  }
+}
